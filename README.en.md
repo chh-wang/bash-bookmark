@@ -1,36 +1,28 @@
 # Bookmark for Bash
 
 #### Description
-Bash环境下的书签功能，快捷进入经常使用目录
+Bookmark for Bash environment
 
-#### Software Architecture
-Software architecture description
+Support add, remove, view operation, and auto completion feature
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. copy bm.bash to $HOME directory 
+2. Rename bm.bash to .bm.bash as a hidden file
+3. Add below code to the end of the .bashrc file
+```
+[ -f $HOME/.bm.bash ] source .bm.bash
+```
+4. Run source ~/.bashrc or reboot bash terminal
+
+Note: the script will automatically create .bms file in the home directory
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. *bm <bookmark name>:* Add current directory to the bookmark
+2. *bj <bookmark name>:* Jump to the bookmark with the name
+3. *bl:*                 List the bookmarks
+4. *bd <bookmark name>:* Remove the bookmark with the name
 
 #### Contribution
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
