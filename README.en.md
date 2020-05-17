@@ -19,10 +19,10 @@ Note: the script will automatically create .bms file in the home directory
 
 #### Instructions
 
-1. *bm <bookmark name>:* Add current directory to the bookmark
-2. *bj <bookmark name>:* Jump to the bookmark with the name
-3. *bl:*                 List the bookmarks
-4. *bd <bookmark name>:* Remove the bookmark with the name
+1. **bm <bookmark name>:** Add current directory to the bookmark
+2. **bj <bookmark name>:** Jump to the bookmark with the name
+3. **bl:**                 List the bookmarks
+4. **bd <bookmark name>:** Remove the bookmark with the name
 
 #### Contribution
 
