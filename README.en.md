@@ -8,12 +8,12 @@ Support add, remove, view operation, and auto completion feature
 #### Installation
 
 1. copy bm.bash to $HOME directory ``` cp bm.bash ~/bm.bash ```
-2. Rename bm.bash to .bm.bash as a hidden file
+2. Rename bm.bash to .bm.bash as a hidden file ``` mv ~/bm.bash ~/.bm.bash ```
 3. Add below code to the end of the .bashrc file
 ```
 [ -f ~/.bm.bash ] && source .bm.bash
 ```
-4. Run source ~/.bashrc or reboot bash terminal
+4. Run ``` source ~/.bashrc ``` or reboot bash terminal
 
 Note: the script will automatically create .bms file in the home directory
 
